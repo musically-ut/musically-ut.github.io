@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.musicallyut.in" # the base hostname & protocol for your site
 twitter_username: musically_ut
 github_username: musically-ut
-gems: [jekyll_inline_highlight]
+# gems: [jekyll_inline_highlight]
 
 # Build settings
 exclude: 

@@ -73,7 +73,7 @@ and:
 {% endraw %}
 {% endhighlight %}
 
-However, it doesn't _merge_ attribute values, so we cannot build a list of classes using {% ihighlight html+handlebars %}{% raw %}<input {{attrs1}} {{attrs2}} ... />{% endraw %}{% endihighlight %}.
+However, it doesn't _merge_ attribute values, so we cannot build a list of classes using {% raw %}`<input {{attrs1}} {{attrs2}} ... />`{% endraw %}.
 
 #### Block tags inside attributes
 
@@ -87,4 +87,4 @@ This works:
 
 #### Interchangable functions an properties
 
-Spacebars automatically executes functions in the template. Hence, {% ihighlight html+handlebars %}{% raw %}{{foo.bar}}{% endraw %}{% endihighlight %} could mean {% ihighlight html+handlebars %}{% raw %}{{foo().bar}}{% endraw %}{% endihighlight %}, {% ihighlight html+handlebars %}{% raw %}{{foo.bar()}}{% endraw %}{% endihighlight %}, {% ihighlight html+handlebars %}{% raw %}{{foo().bar()}}{% endraw %}{% endihighlight %} or {% ihighlight html+handlebars %}{% raw %}{{foo.bar}}{% endraw %}{% endihighlight %} depending on the values of {% ihighlight html+handlebars %}{% raw %}foo{% endraw %}{% endihighlight %} and {% ihighlight html+handlebars %}{% raw %}bar{% endraw %}{% endihighlight %}.
+Spacebars automatically executes functions in the template. Hence, {% raw %}`{{foo.bar}}` could mean `{{foo().bar}}`, `{{foo.bar()}}`, `{{foo().bar()}}` or `{{foo.bar}}` depending on the values of `foo` and `bar`{% endraw %}.
