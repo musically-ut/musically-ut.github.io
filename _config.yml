@@ -1,0 +1,17 @@
+# Site settings
+title: Musically Yours
+email: mail@musicallyut.in
+description: > # this means to ignore newlines until "baseurl:"
+  Programming, data science, and other fleeting bits of life.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.musicallyut.in" # the base hostname & protocol for your site
+twitter_username: musically_ut
+github_username: musically-ut
+gems: [jekyll_inline_highlight]
+
+# Build settings
+exclude: 
+  - "*.orig"
+  - "*~"
+markdown: kramdown
+
