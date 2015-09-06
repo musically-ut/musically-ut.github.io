@@ -46,7 +46,7 @@ $primary-color-red: #fc222f;
 $primary-color-yellow: #fed82f;
 $primary-color-blue: #37deff;
 
-$button-color: $primary-color-blue;
+$button-color: darken($primary-color-blue, 25%);
 
 button {
     border: none;
