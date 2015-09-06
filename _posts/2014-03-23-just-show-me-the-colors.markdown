@@ -2,7 +2,7 @@
 layout: post
 title: Just show me the colors
 date: '2014-03-23 20:11:26'
-permalink: /just-show-me-the-colors/
+permalink: /show-me-the-colors/
 ---
 
 Don't you dislike it when an author says:
