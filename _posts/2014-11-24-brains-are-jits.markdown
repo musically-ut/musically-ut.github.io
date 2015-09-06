@@ -2,7 +2,7 @@
 layout: post
 title: Brains are JITs
 date: '2014-11-24 06:47:11'
-permalink: /brains-are-JITs/
+permalink: /brains-are-jits/
 ---
 
 [Nominolo](http://nominolo.blogspot.ch/) and I were talking about computations.

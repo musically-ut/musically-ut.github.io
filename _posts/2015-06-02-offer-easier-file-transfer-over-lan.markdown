@@ -2,7 +2,7 @@
 layout: post
 title: 'offer: Easier file transfer over LAN'
 date: '2015-06-02 14:47:36'
-permalink: /offer-Easier-file-transfer-over-LAN/
+permalink: /offer-easier-file-transfer-over-lan/
 ---
 
 Often when I have to transfer a file from my laptop to a device connected to the same LAN, the fastest way is to start a `python -m SimpleHTTPServer` (or `python3 -m http.server`), in the folder on my laptop and point the other device's browser to the IP address of my laptop and the name of the file.

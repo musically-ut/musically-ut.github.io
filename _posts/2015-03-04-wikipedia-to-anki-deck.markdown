@@ -2,7 +2,7 @@
 layout: post
 title: Wikipedia to Anki deck
 date: '2015-03-04 11:18:37'
-permalink: /Wikipedia-to-Anki-deck/
+permalink: /wikipedia-to-anki-deck/
 ---
 
 I looked at a list of [Collective nouns in English](http://en.wikipedia.org/wiki/List_of_English_terms_of_venery,_by_animal) and looked around for an [Anki deck](http://ankrisrs.net) to study them. However, I found none.

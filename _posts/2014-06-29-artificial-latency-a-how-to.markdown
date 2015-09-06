@@ -2,7 +2,7 @@
 layout: post
 title: 'Artificial Latency: A How To'
 date: '2014-06-29 13:29:18'
-permalink: /Artificial-Latency-A-How-To/
+permalink: /artificial-latency-a-how-to/
 ---
 
 So you have a client side app written in javascript and you are [worried about latency](https://www.igvita.com/2015/01/26/resilient-networking/). This latency is inevitable and can arise in loading assets as well as in AJAX calls. Now you have taken care of those situations and have written your app to behave gracefully in those waiting periods.

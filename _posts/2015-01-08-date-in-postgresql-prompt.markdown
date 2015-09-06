@@ -2,7 +2,7 @@
 layout: post
 title: Current time in PostgreSQL prompt
 date: '2015-01-08 12:12:27'
-permalink: /date-in-PostgreSQL-prompt/
+permalink: /date-in-postgresql-prompt/
 ---
 
 I like having current time in my command prompts. It helps me keep track of how long a command has been running after I have become a little scared of losing all the progress the command has already made. It also allows for some cheap profiling.

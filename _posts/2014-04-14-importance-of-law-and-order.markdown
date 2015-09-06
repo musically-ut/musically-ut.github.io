@@ -2,7 +2,7 @@
 layout: post
 title: Importance of law and order
 date: '2014-04-14 03:02:39'
-permalink: /Importance-of-law-and-order/
+permalink: /importance-of-law-and-order/
 ---
 
 I was recently drawn into a debate about governance and someone raised the point that law and order is only one spoke of the wheel of services which the government should provide.

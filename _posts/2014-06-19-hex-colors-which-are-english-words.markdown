@@ -2,7 +2,7 @@
 layout: post
 title: Hex colors which are English words
 date: '2014-06-19 16:14:14'
-permalink: /Hex-colors-which-are-English-words/
+permalink: /hex-colors-which-are-english-words/
 ---
 
 Out of curiousity, I wanted to find out how many words of English are valid HTML colors.

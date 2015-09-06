@@ -2,7 +2,7 @@
 layout: post
 title: Meteor 1.0 and Typescript 1.3
 date: '2014-11-26 22:22:42'
-permalink: /Meteor-1-0-and-Typescript-1-3/
+permalink: /meteor-1-0-and-typescript-1-3/
 ---
 
 So I started a new project and I wanted to use [Meteor](https://www.meteor.com/) as the framework and [Typescript](http://www.typescriptlang.org/) as the language in place of Javascript.

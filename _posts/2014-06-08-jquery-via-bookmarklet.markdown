@@ -2,7 +2,7 @@
 layout: post
 title: jQuery via bookmarklet
 date: '2014-06-08 21:26:19'
-permalink: /jQuery-via-bookmarklet/
+permalink: /jquery-via-bookmarklet/
 ---
 
 I tinker often with external webpages and sometimes miss having jQuery available there. Then I use the following link as a bookmarklet, which just loads jQuery into the active page:

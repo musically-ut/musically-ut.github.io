@@ -2,7 +2,7 @@
 layout: post
 title: Software development is hard but
 date: '2014-04-17 17:00:13'
-permalink: /Software-development-is-hard-but/
+permalink: /software-development-is-hard-but/
 ---
 
 that is a lame excuse to deliver half hearted products.
