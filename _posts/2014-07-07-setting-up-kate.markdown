@@ -2,6 +2,7 @@
 layout: post
 title: Setting up Kate
 date: '2014-07-07 21:58:15'
+permalink: /Setting-up-Kate/
 ---
 
 I just set up [Kate](http://kate-editor.org/) for my pet side-project [Chanslate](https://github.com/musically-ut/chanslate) so that other people wishing to contribute have an easy time.

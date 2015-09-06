@@ -2,6 +2,7 @@
 layout: post
 title: EXPLAIN Query
 date: '2015-01-27 08:35:46'
+permalink: /EXPLAIN-Query/
 ---
 
 These are some notes I made while trying to understand what `EXPLAIN QUERY` output in PostgreSQL means:

@@ -2,6 +2,7 @@
 layout: post
 title: Tips and Tricks
 date: '2015-01-04 22:00:45'
+permalink: /Tip-and-Tricks/
 ---
 
 A collection of random tid-bits I come across during my everyday life which I cannot keep organized anywhere else.

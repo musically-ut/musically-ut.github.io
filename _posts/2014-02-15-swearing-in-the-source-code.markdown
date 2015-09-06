@@ -2,6 +2,7 @@
 layout: post
 title: Swearing in the source code
 date: '2014-02-15 17:15:33'
+permalink: /swearing-in-the-source-code/
 ---
 
 Swear words should never make it to production, but I don't mind them _at most places_.

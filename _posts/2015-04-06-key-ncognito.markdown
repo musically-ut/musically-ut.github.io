@@ -2,6 +2,7 @@
 layout: post
 title: Key-ncognito
 date: '2015-04-06 13:58:07'
+permalink: /Key-ncognito/
 ---
 
 I wrote a small Chrome extension which allows opening links in incognito mode using the key-combination `Meta` + `Alt` with the `Click` on the link. The key combination can be changed via the settings page.

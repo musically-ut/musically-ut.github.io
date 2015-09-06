@@ -2,6 +2,7 @@
 layout: post
 title: 'seqfile: Generate sequential filenames safely'
 date: '2015-04-25 09:53:00'
+permalink: /seqfile-Generate-sequential-filenames/
 ---
 
 Version control is great. However, it is something I have to actively think about. If I am writing code, I can find points when I have finished a task and am ready to commit it in. But I have a different frame of mind while doing exploratory model fitting.

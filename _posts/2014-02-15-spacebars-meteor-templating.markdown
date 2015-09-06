@@ -2,6 +2,7 @@
 layout: post
 title: 'Spacebars: Meteor templating'
 date: '2014-02-15 15:40:40'
+permalink: /spacebars-meteor-templating/
 ---
 
 `Spacebars` is an adaptation of `Handlebars` templating which is used by `meteor`. Since EmberJS and AngularJS use Handlebars-like templating, I was on a comfortable footing here, but after reading the hidden `README.md` in the Meteor docs, I discovered some new things.

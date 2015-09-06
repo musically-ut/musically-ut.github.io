@@ -2,6 +2,7 @@
 layout: post
 title: Amateur astronomy
 date: '2014-03-12 23:36:49'
+permalink: /amateur-astronomy/
 ---
 
 # *Step 1:* Telescope

@@ -2,6 +2,7 @@
 layout: post
 title: Aiding Typescript's type inference
 date: '2014-11-12 22:40:27'
+permalink: /typescript-and-type-inference/
 ---
 
 If you want Typescript to determine the type of your variables correctly, do not do:

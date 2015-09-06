@@ -2,6 +2,7 @@
 layout: post
 title: To the moon
 date: '2014-04-04 12:04:25'
+permalink: /to-the-moon/
 ---
 
 I played a game which I liked a lot: [To the moon](http://freebirdgames.com/to_the_moon/).

@@ -2,6 +2,7 @@
 layout: post
 title: Flying SVG planes
 date: '2014-04-26 21:18:34'
+permalink: /Flying-SVG-planes/
 ---
 
 In the latest revamp of the [Swiss Air website](http://swiss.com/ch/en), they introduced an interesting _loading_ animation. It involved a bunch of planes flying around some text:

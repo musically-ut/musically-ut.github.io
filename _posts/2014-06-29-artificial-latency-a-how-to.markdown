@@ -2,6 +2,7 @@
 layout: post
 title: 'Artificial Latency: A How To'
 date: '2014-06-29 13:29:18'
+permalink: /Artificial-Latency-A-How-To/
 ---
 
 So you have a client side app written in javascript and you are [worried about latency](https://www.igvita.com/2015/01/26/resilient-networking/). This latency is inevitable and can arise in loading assets as well as in AJAX calls. Now you have taken care of those situations and have written your app to behave gracefully in those waiting periods.
@@ -11,7 +12,8 @@ So you have a client side app written in javascript and you are [worried about l
 However, how do you test the behavior of your app in these cases when all you have is blazing fast access to the Internet?
 
 We would want the test to be easy to turn on an off. 
->Ideally, it would be as simple as changing only the source code of the app (the HTML or the `apiPrefix`) and reloading the browser.
+
+> Ideally, it would be as simple as changing only the source code of the app (the HTML or the `apiPrefix`) and reloading the browser.
 
 ## The setup
 

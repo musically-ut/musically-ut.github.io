@@ -2,6 +2,7 @@
 layout: post
 title: Meteor and Bower
 date: '2014-12-02 01:57:51'
+permalink: /Meteor-and-Bower/
 ---
 
 **TD;DR**: Use the following in your `.bowerrc`:

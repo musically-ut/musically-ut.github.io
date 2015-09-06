@@ -2,6 +2,7 @@
 layout: post
 title: Lovely forks
 date: '2015-06-24 14:15:20'
+permalink: /Lovely-forks-2/
 ---
 
 ![](https://musicallyut.in/docs/lovely-forks/promo.png)

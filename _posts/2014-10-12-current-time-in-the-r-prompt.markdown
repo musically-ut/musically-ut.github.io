@@ -2,6 +2,7 @@
 layout: post
 title: Current time in the R prompt
 date: '2014-10-12 15:26:10'
+permalink: /Current-time-in-the-R-prompt/
 ---
 
 **Update**: [Prof. Duncan Temple Lang](http://www.stat.ucdavis.edu/~duncan/), one of the core developers of R, actually [gave a simpler way](https://stat.ethz.ch/pipermail/r-devel/2014-October/069922.html) of achieving the same thing:

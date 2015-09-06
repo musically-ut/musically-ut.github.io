@@ -2,6 +2,7 @@
 layout: post
 title: G+ indicator animation in CSS3
 date: '2014-11-13 23:12:50'
+permalink: /G-indicator-animation-in-CSS3/
 ---
 
 This was fun.

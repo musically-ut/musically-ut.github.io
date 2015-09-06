@@ -2,6 +2,7 @@
 layout: post
 title: Chanslate.in
 date: '2014-03-12 11:46:45'
+permalink: /chanslate-in/
 ---
 
 I made a thing. It is called [Chanslate](http://chanslate.in).
