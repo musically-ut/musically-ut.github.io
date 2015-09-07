@@ -15,7 +15,7 @@ _Just show me the colors_ bridges the gap a little bit. Come back with the [book
 
 Or, alternatively, press this button: <button class="" id="just-show-me-the-colors">Just show me the colors</button>
 
-<script src="/just-show-me-the-colors/just-show-me-the-colors.min.js"></script>
+<script src="/js/just-show-me-the-colors.min.js"></script>
 <script>
 document.getElementById('just-show-me-the-colors').onclick = function (ev) { justShowMeTheColors(); };
 </script>
