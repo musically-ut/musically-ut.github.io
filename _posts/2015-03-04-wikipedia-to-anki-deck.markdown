@@ -5,7 +5,7 @@ date: '2015-03-04 11:18:37'
 permalink: /wikipedia-to-anki-deck/
 ---
 
-I looked at a list of [Collective nouns in English](http://en.wikipedia.org/wiki/List_of_English_terms_of_venery,_by_animal) and looked around for an [Anki deck](http://ankrisrs.net) to study them. However, I found none.
+I looked at a list of [Collective nouns in English](http://en.wikipedia.org/wiki/List_of_English_terms_of_venery,_by_animal) and looked around for an [Anki deck](http://ankisrs.net) to study them. However, I found none.
 
 Hence, I set about making one for myself: [Collective nouns in English](https://ankiweb.net/shared/info/775128629).
 
@@ -85,7 +85,7 @@ Then I opened Anki, and imported the file to create the deck:
 
 ![Anki import](/content/images/2015/03/Import.png)
 
-The import work smoothly. I synced with AnkiWeb, and shared the deck.
+The import work smoothly. I synced with AnkiWeb, and [shared the deck](https://ankiweb.net/shared/info/775128629).
 
 ### Conclusion
 
