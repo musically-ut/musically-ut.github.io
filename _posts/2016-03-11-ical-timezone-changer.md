@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Calendars'
+title: 'Internet Calendars'
 date: '2016-03-11'
 ---
 
