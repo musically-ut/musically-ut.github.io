@@ -4,7 +4,7 @@ title: 'arXiv-title-fixer'
 date: '2016-03-13'
 ---
 
-![arXiv-title-fixer](/content/images/2016/Apr/arXiv-title-fixer.png)
+![arXiv-title-fixer](/content/images/2016/Apr/arxiv-title-fixer.png)
 
 I wrote a small extension to fix a pet-peeve of mine: I kept losing which
 Chrome tab housed which [arXiv](https://arxiv.org) paper; the machine readable
