@@ -70,10 +70,17 @@ button:active {
     margin: 0.25rem 0;
 }
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting"
 ;
+
+hr {
+    margin: 0.5em;
+    color: #777;
+}
+
+
+
