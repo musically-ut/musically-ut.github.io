@@ -17,7 +17,7 @@ to open source should include the label `first-timers-only` on some of the
 easy issues which should be attempted only by people for whom it would be their
 first pull request.
 
-However, there is no explicit way of keeping a watch out on millions of projecs on Github. 
+However, there is no explicit way of keeping a watch out on millions of projects on Github. 
 
 Enter [@first_tmrs_only](https://twitter.com/first_tmrs_only).
 
