@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'appreciate'
+title: 'Did you thank your node dependencies?'
 date: '2016-10-11'
 ---
 
