@@ -16,7 +16,7 @@ From [Wikipedia](http://en.wikipedia.org/wiki/Scientific_method#Elements_of_the_
 
 Scientists do this about reality.
 
-## Now debugging
+## What is debugging
 
 From my personal experience and [Wikipedia](http://en.wikipedia.org/wiki/Debugging#Typical_debugging_process), while debugging your own program:
 
@@ -25,7 +25,7 @@ From my personal experience and [Wikipedia](http://en.wikipedia.org/wiki/Debuggi
  3. Track down the origin (_predict_ results of the fix)
  4. Test to see if the fix works (_experiment_)
 
-Program is like a _complete universe_. That universe becomes _unknown_ if it is someone else's code!
+Program is like a _complete universe_. That universe becomes _unknown_ if it is someone else's code.
 
 This is _exactly_ what scientists are up to!
 
