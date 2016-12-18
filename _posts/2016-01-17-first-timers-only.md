@@ -14,7 +14,7 @@ One can do that for Mozilla related bugs on [bugs ahoy!](http://www.joshmatthews
 There is also [up-for-grabs](http://up-for-grabs.net/#/) using which one can search for issues one can contribute to. See [www.firsttimersonly.com](http://www.firsttimersonly.com/) for a comprehensive list of resources related to it.
 
 
-Kenn suggested that people who want to encourage people to start contributing
+Kent suggested that people who want to encourage people to start contributing
 to open source should include the label `first-timers-only` on some of the
 easy issues which should be attempted only by people for whom it would be their
 first pull request.
