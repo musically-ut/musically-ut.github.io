@@ -4,6 +4,8 @@ title: 'first-timers-only issues'
 date: '2016-01-17 15:40:40'
 ---
 
+![@first_tmrs_only](/content/images/2016/Aug/first-timers-only-icon.png)
+
 [Kent C. Dodds](https://twitter.com/kentcdodds) wrote a [blog post](https://medium.com/@kentcdodds/first-timers-only-78281ea47455#.e1z71cjox) way back in August 2015 about one way of getting 
 more people involved in programming: by explicitly identifying issues to which
 they can contributed. 
