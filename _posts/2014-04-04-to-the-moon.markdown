@@ -11,7 +11,7 @@ I played a game which I liked a lot: [To the moon](http://freebirdgames.com/to_t
 
 The gameplay leaves something to be desired, but the story, ambience and the sound track blew my away. The story is very simple, but it strung the right chords.
 
-The total play time is about 3-4 hours. I could not make up my mind whether I would have liked it as much if it were a book or a movie. This relates to my experience of watching [_The last of Us_ playthrough](http://musicallyut.blogspot.ch/2013/09/interactive-storytelling-in-last-of-us.html).
+The total play time is about 3-4 hours. I could not make up my mind whether I would have liked it as much if it were a book or a movie. This relates to my experience of watching [_The last of Us_ play-through](http://musicallyut.blogspot.ch/2013/09/interactive-storytelling-in-last-of-us.html).
 
 This is Laura Shigihara performing the OST "Everything's alright":
 

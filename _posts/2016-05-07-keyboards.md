@@ -51,6 +51,8 @@ description of what I have felt like using each of them. They are roughly arrang
  - Fn + WASD as the arrow keys along with IJKL
  - Fn + ZXCVB for Mute, Volume -, Volume +, Play/Pause and Next (after firmware upgrade)
  - Have switched the Fn and Alt key right of the Spacebar (Using Dip switches)
+ - Fn + Tab for PgUp
+ - Fn + CapsLock for PgDn
 
 **Peeves:**
 
@@ -96,7 +98,7 @@ description of what I have felt like using each of them. They are roughly arrang
 
 **Customization:**
 
- - Fn + WASD for arrow kwys (in addition to normal ones).
+ - Fn + WASD for arrow keys (in addition to normal ones).
 
 **Peeves:**
 
@@ -111,7 +113,7 @@ description of what I have felt like using each of them. They are roughly arrang
 
 **Comments:**
 
- - Buckling spring keys are the rigidest keys I have experienced
+ - Buckling spring keys are the most rigid keys I have experienced
  - Has inbuilt mouse-controlling pointing stick
  - Full-bodied, has nearly all keys imaginable 
 
