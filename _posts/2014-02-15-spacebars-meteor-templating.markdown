@@ -86,6 +86,6 @@ This works:
 {% endraw %}
 {% endhighlight %}
 
-#### Interchangable functions an properties
+#### Interchangeable functions and properties
 
 Spacebars automatically executes functions in the template. Hence, {% raw %}`{{foo.bar}}` could mean `{{foo().bar}}`, `{{foo.bar()}}`, `{{foo().bar()}}` or `{{foo.bar}}` depending on the values of `foo` and `bar`{% endraw %}.
