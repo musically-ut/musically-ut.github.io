@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'Styluses: the evolution'
+date: '2017-01-22'
+---
+
+Along with upgrading [my keyboards]({% post_url 2016-05-07-keyboards %}), I have also been
+looking to upgrade my pen-and-paper arrangements in the recent years. This is
+how far I've gone down that path.
+
+**TL; DR** Endgame (so far): [Wacom Bamboo Smart For Samsung Galaxy Note
+Black](https://www.amazon.de/gp/product/B014KZ1Y6Y/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1)
++ [Samsung Galaxy Note 10.1](https://www.amazon.com/Samsung-Galaxy-Note-10-1-Black/dp/B00F3SOHNU/ref=dp_ob_title_ce)
+
+# My journey
+
+My journey with styluses began with Samsung Galaxy Note, the original phone. I bought it in May 2012 and it came with an S-Pen and I found the pen plainly incredible. I used it often to jot down little notes and has the cover setup such that I could write notes as soon as I opened up the phone.
+
+I initially tried out Wacom Intuos (I do not recall which exact version) tablet connected to my laptop, but wasn't happy with it for some reason. So I gave up on styluses for a while.
+
+After using my Note for about 1.5 years, I bought a second hand, but never opened, Samsung Galaxy Note 10.1 tablet in November 2014 and I've never really looked back. I bought a stylus compatible app called Squid (formerly Papyrus) and I was hooked by the pdf import feature.
+
+I read several papers on the app, made handwritten notes on the side margins as well as on pages following the pdfs. After my girlfriend found out that the tablet was also very useful for learning from slides, I _gifted_ it to her and graduated to Samsung Galaxy 10.1 (2014 edition). This purchase was made in December 2014. This added a more responsive stylus with a thinner screen: which made writing feel even more real. I stuck with the company stylus for a while.
+
+On June 2015, I bought a Samsung Galaxy Note 3 (which also came with an S-Pen). I don't use that S-pen all that often, but it comes in handy sometimes.
+
+Finally, I took the next leap in November 2016, when I bought the [Wacom Bamboo Smart For Samsung Galaxy Note Black](https://www.amazon.de/gp/product/B014KZ1Y6Y/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1). The pen felt good, but I hit the next level when I replaced the nib with a hard ended one. It took away the little friction that the rubber ended nib had on the glass screen and made the pen just float around on the glass. That has made my writing even more pleasurable. I am very happy with the purchase.
+
+# Other devices
+
+I've tried out the Apple pencil and have loved its quality. However, the pencil feels a bit too heavy for me. Writing on the Surface Pro 3 felt nice, but the latency was still an issue and most of the Windows apps did not allow for stylus input anyway.
+
+My initial experience with a Wacom Tablet wasn't good but recently, after listening to the [Cortex podcast](https://www.relay.fm/cortex), my interest in them has been rekindled.
+
+# Future
+
+However, Samsung has not announced any releases which will carry on the Galaxy Note 10.1 (or the 12.2) series. I am getting a little worried about the future of my apps and styluses, though I am happy with that I have right now. Moreover, with the rumours that they may end their Galaxy Note line after the Note 7 fiasco, I am a bit more disheartened.
+
+Recently, [reMarkable](https://getremarkable.com/) seems to be taking the market in a different direction: no colors, but better half life and a more pen-on-paper feel than nib-on-glass. I am curious to see if they can deliver and what kind of reception it receives.
+
+With Apple and Samsung firmly in the stylus biz as well, I expect Samsung to pick up the gauntlet again sooner or later.
