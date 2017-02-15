@@ -11,7 +11,7 @@ the benchmarks easily and has been adopted into the main-stream products quickly
 
 While working on a [recurrent neural network](http://www.kdd.org/kdd2016/subtopic/view/recurrent-temporal-point-process), I ran into several problems while trying to get the model to work with a relatively simple model. We did manage to make it work with a custom backend, but the process reminded me how I used to learn things.
 
-What I would have liked to have are very simple models for which I _knew_ what the solution is and then see if the libraries and the frameworks I employed were indeed diong what I was asking of them. 
+What I would have liked to have are very simple models for which I _knew_ what the solution is and then see if the libraries and the frameworks I employed were indeed doing what I was asking of them. 
 
 However, there are two primary issues with classical models used in Deep Learning:
 
@@ -22,7 +22,7 @@ So why not fix these two problems using toy examples?
 
 For example, consider the following dataset:
 
-# Hand fitted parmeters
+# Hand fitted parameters
 
 
 
