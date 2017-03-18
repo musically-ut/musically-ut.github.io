@@ -4,7 +4,7 @@ require 'json'
 require 'open-uri'
 versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-gem 'github-pages', versions['github-pages']
-
-# This is the offline version
-# gem 'github-pages'
+# Invest the comment status of the following lines to switch to offline/online
+# settings.
+gem 'github-pages'
+# gem 'github-pages', versions['github-pages']
