@@ -26,7 +26,7 @@ More than once I thought that Lawrence Waterhouse was out of his mind, e.g. when
 
 Perhaps all of these answers were lost just like the prayers of the Rabbi were chopped up by the rotor blades of a helicopter while they were <span class="spoiler">desecrating the graves</span> towards the end.
 
-Another question I don't have the answer to is how much of the story were the characters in the future timeline able to work out for themselves. There were clues left along which led Randy in the present world in the right direction (e.g. <span class="spoiler">Lavender Rose)</span>, but was he ever able to piece the puzzle together of how things ended up where they were? Did he bother? 
+Another question I don't have the answer to is how much of the story were the characters in the future timeline able to work out for themselves. There were clues left along which led Randy in the present world in the right direction (e.g. <span class="spoiler">Lavender Rose</span>), but was he ever able to piece the puzzle together of how things ended up where they were? Did he bother? 
 
 My favourite character is Bobby Shafote. I like the way he is introduced, the way his character develops, his stoicism and his general badassness. And I like his off-springs.
 
