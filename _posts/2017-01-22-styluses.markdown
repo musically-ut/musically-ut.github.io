@@ -38,4 +38,15 @@ However, Samsung has not announced any releases which will carry on the Galaxy N
 
 Recently, [reMarkable](https://getremarkable.com/) seems to be taking the market in a different direction: no colors, but better half life and a more pen-on-paper feel than nib-on-glass. I am curious to see if they can deliver and what kind of reception it receives.
 
-With Apple and Samsung firmly in the stylus biz as well, I expect Samsung to pick up the gauntlet again sooner or later.
+With Apple firmly in the stylus biz as well, I expect Samsung to pick up the gauntlet again sooner rather than later.
+
+----
+
+### Update
+
+Another interesting thing which recently crossed my radar was the [Smart Writing Set](http://www.moleskine.com/en/news/smartwritingset). It is a digital pen with an "active" Moleskine notebook. It can record what you write on the notebook on an Apple or Android device with the help of Bluetooth and a dedicated app. The pen isn't too awkward to hold and can be recharged with each charge lasting for about 8 hours of writing (or so I was told).
+
+The nice thing is that each page on the notebook is represented as a separate page on their App and turning the notebook page turns the page on the app as well. Hence, what you end up with is a nice rasterized version of the entire notebook on your device, which you can annotate, flip through, export and share. 
+
+The price of the set is about [$199 at the time of writing](https://store.moleskine.com/usa/en-gb/moleskine-/smart-writing-set/smart-writing-set/p1014?ic=OlIz7g%3D%3D&vid=2772), the apps are free and the [paper tablet notebooks cost about $30 for 176 pages](https://store.moleskine.com/usa/en-gb/moleskine-/smart-writing-set/smart-writing-set/p1014?ic=OlIz7g%3D%3D&vid=2772). Overall, seems like a thing worth experimenting with.
+
