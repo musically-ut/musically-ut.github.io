@@ -17,7 +17,7 @@ var objs = nestedArray.map(function (row) {
 });
 ```
 
-and if you do not know the  in advance, then 
+and if you do not know the fields in advance, then 
 
 ```javascript
 var headers = ['Name', 'Age', 'Address'];
@@ -32,3 +32,5 @@ Why would you send back an array instead of sending back fields themselves?
 
   - You may be fetching a `csv` file
   - Optimising the data being downloaded
+
+Then there is the [D3 way](link to Github code).
