@@ -35,6 +35,8 @@ Sounds fairly simple, right?
 
 ## Technical issues
 
+The first problem was that `datetime` module is implemented both as a Python module (the pure implementation) as well as a C module (the fast implementation).
+
  - datetime exists both as a Python as well as a C module.
  - Haypo on core-mentorship was very helpful and I got to know of PEP XYZ.
  - It turned out that the Python version was not being tested, fixed that as a separate PR.
