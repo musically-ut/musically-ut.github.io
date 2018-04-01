@@ -37,15 +37,15 @@ Sounds fairly simple, right?
 
 The first issue: `timedelta.repr` is explicitly described [in the documentation](https://docs.python.org/3/library/datetime.html#timedelta-objects) in some detail:
 
-```
+{% highlight python %}
 repr(t):
 Returns a string in the form datetime.timedelta(D[, S[, U]]), where D is negative for negative t.
-```
+{% endhighlight %}
 
 > Not a problem, will update the documentation along the way.
 
 The next problem was that `datetime` module is implemented both as a Python module (the pure implementation) as well as a C module (the fast implementation).
-I was a little puzzled by this and Victor (<span class="devicons devicons-github_badge"></span> [haypo](https://github.com/haypo) on the core-mentorship was very helpful in explaining the reasoning behind this (if you are curious, I'd encourage you to look at [PEP 399](https://www.python.org/dev/peps/pep-0399/)).
+I was a little puzzled by this and Victor <span class="devicons devicons-github_badge"></span> [haypo](https://github.com/haypo) on the core-mentorship was very helpful in explaining the reasoning behind this (if you are curious, I'd encourage you to look at [PEP 399](https://www.python.org/dev/peps/pep-0399/)).
 
 > Not a problem, will fix the implementation at both places.
 
@@ -91,6 +91,10 @@ Finally, Victor made a [judgement call](https://bugs.python.org/msg299152) and m
 > But wait, there's more!
 
 However, things were not quite over yet. During the re-basing of the branch over the one with the fix for the tests, I accidentally left an artifact in, which had to be cleared up in [yet another PR](https://github.com/python/cpython/pull/2891). Then I also wrote a [`WhatsNew` and a `Porting to Python 3.7` entry](https://github.com/python/cpython/pull/2929).
+
+Finally, a few months after the PR, I noticed that there were still instances in the documentation with the old output and so I sheepishly made [another PR](https://github.com/python/cpython/pull/3687) to fix those. 
+
+⋈
 
 ## Conclusion
 
