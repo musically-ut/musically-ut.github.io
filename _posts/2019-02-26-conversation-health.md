@@ -8,7 +8,7 @@ In a recent [conversation with Sam Harris](https://youtu.be/lOvbEmufGwY?t=1967),
 
   - **Shared attention:** what percentage of the conversation is "about" the same thing versus about dispersed.
 
-  - **Shared reality:** what percentage of the conversation is sharing the same "facts" (irrespective of whether they agree with 
+  - **Shared reality:** what percentage of the conversation is sharing the same "facts" (irrespective of whether they agree with them or not)
 
   - **Receptivity:** How 'toxic' is the conversation right now? How likely are people to _walk away_ from the conversation?
 
