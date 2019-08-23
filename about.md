@@ -32,7 +32,7 @@ Drawn with love by [@GibsonTwist](https://twitter.com/GibsonTwist).
 #### Tools
 
  - [Brackets](http://brackets.io/)
- - [Github](https://github.com/)
+ - [GitHub](https://github.com/)
  
 ## Photographs
 

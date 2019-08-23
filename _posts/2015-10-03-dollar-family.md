@@ -8,7 +8,7 @@ University of Washington has a project with the awesome name [dollar family of g
 
 They have demonstrations to go with their recognizers, but:
 
-  - the Javascript implementation they provided is a single JS file which pollutes the global namespace and cannot be used together with other
+  - the JavaScript implementation they provided is a single JS file which pollutes the global namespace and cannot be used together with other
     recognizers they provide (e.g you cannot $1 and $P recognizers because the definition of `Point` class is different in both).
   - the demos do not work on touch devices D:
 
