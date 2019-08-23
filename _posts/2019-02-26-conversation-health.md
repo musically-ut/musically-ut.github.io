@@ -15,4 +15,4 @@ In a recent [conversation with Sam Harris](https://youtu.be/lOvbEmufGwY?t=1967),
   - **Variety of perspective:** How diverse are the ideas being discussed?
 
 
-All of these look like interesting problems to study.
+All of these look like interesting problems to study, I have worked on the [last problem](https://dl.acm.org/citation.cfm?id=3290965) myself.
