@@ -10,7 +10,7 @@ By giving me advice and reassurances.
 The way that helped me is I started thinking about what was bothering me and
 I came up with a sort of theory about the anxiety.
 
-## Skill of first time parents and difficulty of raising first child
+## Modeling skill difficulty of parenting
 
 Imagine a difficulty scale on which one can put the skill level of parents and the "hardness" of raising a child successfully.
 If the skill level of the parent is above the difficulty of raising the children, then the parent will achieve success.
@@ -57,8 +57,8 @@ perceived difficulty of raising children in general and again helps reduce anxie
 It too comes in many forms, including by not limited to:
 
 1. "Babies are very sturdy."
-2. "Humanity has been raising kids since forever, you will be find."
-3. "Babies are really good at asking for help. If something is wrong, they'll let you know."
+2. "Humanity has been raising kids since forever, you will be fine."
+3. "Babies are really good at asking for help. Loudly. If something is wrong, they'll let you know."
 
 <p align="center">
 <img alt="Advice kind 2: the game is easy" src="/content/images/2021/Oct/advice-kind-2.png" width="80%" align="center" />
@@ -73,9 +73,4 @@ Different advice works from different folks. However, in general, advice of kind
 
 So there is not much space for improving the perceived latent skill level. On the other hand, the difficulty of raising a child has more "give", and can be reduced much more.
 
-
-
-
-
-
-
+Anyway, so thinking about this is how I managed my own anxiety.
