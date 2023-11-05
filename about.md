@@ -6,8 +6,8 @@ permalink: /about/
 
 I used to live at <http://utkarshu.in> and <http://musicallyut.blogspot.com> but I got frustrated with the limitations.
 
-Hence, here I am, at [musicallyut.in](http://musicallyut.in) and
-[blog.musicallyut.in](http://blog.musicallyut.in).
+Hence, here I am, at [musicallyut.xyz](http://musicallyut.xyz) and
+[blog.musicallyut.xyz](http://blog.musicallyut.xyz).
 
 # Stuff I like and use
 
