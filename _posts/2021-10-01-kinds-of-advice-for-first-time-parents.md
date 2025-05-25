@@ -54,7 +54,7 @@ It comes in many forms, including but not limited to:
 This is the advice which best comes from existing parents. It translates the
 perceived difficulty of raising children in general and again helps reduce anxiety because less of the area under the curve lies beyond the perceived skill level of the parent.
 
-It too comes in many forms, including by not limited to:
+It too comes in many forms, including but not limited to:
 
 1. "Babies are very sturdy."
 2. "Humanity has been raising kids since forever, you will be fine."
