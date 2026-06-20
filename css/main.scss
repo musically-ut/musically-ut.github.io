@@ -5,21 +5,23 @@
 
 
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+// Our variables — redesign: paper-and-ink, warm, Tufte-influenced.
+// (Full theme lives in _sass/_blog-theme.scss; these feed minima's
+//  base/layout partials so any un-overridden bits still match.)
+$base-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #1A1916;
+$background-color: #FBF7F0;
+$brand-color:      #B85C38;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:       #7A715E;
+$grey-color-light: lighten($grey-color, 30%);
+$grey-color-dark:  darken($grey-color, 18%);
 
 // Width of the content area
 $content-width:    800px;
@@ -70,11 +72,13 @@ button:active {
     margin: 0.25rem 0;
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Import partials from `sass_dir` (defaults to `_sass`).
+// `blog-theme` is imported LAST so it overrides minima's base/layout.
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "blog-theme"
 ;
 
 hr {
@@ -95,4 +99,3 @@ hr {
 .spoiler:hover {
     background: white;
 }
-

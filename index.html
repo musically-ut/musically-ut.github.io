@@ -4,24 +4,25 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Notes &amp; <em>essays.</em></h1>
+  <p class="home-intro">{{ site.description | strip_newlines }}</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% assign currentYear = post.date | date: "%Y" %}
-      {% assign lastIndex = forloop.index0 | minus: 1 %}
-      {% assign lastYear = site.posts[lastIndex].date | date: "%Y" %}
-
-      {% if forloop.index0 > 0 and lastYear != currentYear %}
-        <hr class="separator"></hr>
-      {% endif %}
-
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in postsByYear %}
+    <section class="year-block">
+      <div class="year">{{ year.name }}</div>
+      <ul class="post-list">
+        {% for post in year.items %}
+          <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              <span class="post-meta">{{ post.date | date: "%b %d" }}</span>
+              <span class="post-title-text">{{ post.title }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via <span class="fa fa-rss"></span> RSS</a></p>
 

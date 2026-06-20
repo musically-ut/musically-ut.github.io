@@ -1,0 +1,453 @@
+// =========================================================================
+// blog.musicallyut.xyz — Tufte-influenced reading theme
+//
+// Imported LAST from css/main.scss, so it overrides minima's base + layout.
+// Targets minima's real class names (.site-header, .wrapper, .home,
+// .post-content, kramdown's .footnotes, …). Self-contained: all tokens are
+// defined here as CSS custom properties; no external deps. Build system is
+// unchanged — this is just SCSS that Jekyll already compiles.
+// =========================================================================
+
+// ---- Design tokens (CSS custom properties) ------------------------------
+:root {
+  --bg:        #FBF7F0;
+  --bg-deep:   #F1E8D2;
+  --ink:       #1A1916;
+  --ink-2:     #3F392F;
+  --ink-3:     #7A715E;
+  --rule:      #DCD2BB;
+  --rule-soft: #E8DFC7;
+
+  --accent:    #B85C38;   // terracotta
+  --accent-2:  #9C4A2C;
+
+  --serif: "Fraunces", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --mono:  "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --frax-read: "opsz" 28, "SOFT" 50, "WONK" 0;
+
+  --measure:    40rem;
+  --margin-col: 13rem;
+  --margin-gap: 2.6rem;
+  --page-pad:   clamp(1.2rem, 5vw, 4rem);
+  --reading-fs: 1.18rem;
+  --reading-lh: 1.62;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #131210;
+    --bg-deep:   #1E1B14;
+    --ink:       #E5DCC5;
+    --ink-2:     #B0A78F;
+    --ink-3:     #807660;
+    --rule:      #2E2A22;
+    --rule-soft: #25221B;
+    --accent:    #E69679;
+    --accent-2:  #F2AC8E;
+  }
+  img { opacity: 0.92; }
+}
+
+// ---- Base ---------------------------------------------------------------
+html { background: var(--bg); }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-variation-settings: var(--frax-read);
+  font-size: var(--reading-fs);
+  line-height: var(--reading-lh);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1, "onum" 1;
+}
+
+// The shared centered container — header, content, footer all align to it.
+.wrapper {
+  max-width: calc(var(--measure) + var(--margin-gap) + var(--margin-col));
+  margin: 0 auto;
+  padding: 0 var(--page-pad);
+}
+.page-content { padding: 0; }
+
+// ---- Site header --------------------------------------------------------
+.site-header {
+  border-top: 0;
+  border-bottom: 1px solid var(--rule);
+  min-height: 0;
+}
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 1.5rem;
+  padding-bottom: 1.2rem;
+}
+.site-title,
+.site-title:visited {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--ink);
+  letter-spacing: 0;
+  margin: 0;
+  font-variation-settings: "opsz" 40, "SOFT" 60, "WONK" 1;
+}
+.site-nav {
+  line-height: 1;
+  float: none;
+}
+.site-nav .page-link,
+.site-nav a {
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-left: 1.4rem;
+  line-height: 1;
+  transition: color 160ms ease;
+}
+.site-nav a:hover { color: var(--accent); text-decoration: none; }
+
+// ---- Index / archive ----------------------------------------------------
+.home { padding-top: 0.5rem; }
+.page-heading {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: -0.015em;
+  margin: 2.4rem 0 0.4rem;
+  color: var(--ink);
+  font-variation-settings: "opsz" 144, "SOFT" 80;
+  max-width: var(--measure);
+}
+.page-heading em { font-style: italic; color: var(--ink-2); }
+.home-intro {
+  max-width: var(--measure);
+  color: var(--ink-2);
+  font-style: italic;
+  font-size: 1.1rem;
+  margin: 0 0 1rem;
+}
+
+// Year-grouped list (see index.html markup)
+.year-block {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0.4rem 1.4rem;
+  padding: 1.4rem 0;
+  border-top: 1px solid var(--rule);
+}
+.year-block .year {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.7rem;
+  color: var(--accent);
+  opacity: 0.85;
+  font-variation-settings: "opsz" 72, "WONK" 1;
+  line-height: 1.2;
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+}
+.year-block .post-list { list-style: none; margin: 0; padding: 0; }
+.year-block .post-list > li { border-bottom: 1px solid var(--rule-soft); margin: 0; }
+.year-block .post-list > li:last-child { border-bottom: 0; }
+.year-block .post-list > li > a.post-link {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.7rem 0;
+  text-decoration: none;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.12rem;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  transition: padding-left 160ms ease, color 160ms ease;
+}
+.year-block .post-list > li > a.post-link:hover { padding-left: 0.4rem; color: var(--accent-2); }
+.year-block .post-meta {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  margin: 0;
+}
+.rss-subscribe {
+  margin-top: 1.8rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--ink-3);
+}
+.rss-subscribe a { color: var(--accent); }
+
+@media (max-width: 560px) {
+  .year-block { grid-template-columns: 1fr; gap: 0.5rem; }
+  .year-block .year { position: static; }
+  .year-block .post-list > li > a.post-link { grid-template-columns: 1fr; gap: 0.1rem; }
+}
+
+// ---- Post header --------------------------------------------------------
+.post { counter-reset: none; }
+.post-header { max-width: var(--measure); padding: 3rem 0 1.6rem; }
+.post-title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.1rem, 5vw, 3.2rem);
+  line-height: 1.06;
+  letter-spacing: -0.018em;
+  color: var(--ink);
+  margin: 0 0 0.7rem;
+  font-variation-settings: "opsz" 144, "SOFT" 80, "WONK" 0;
+}
+.post-title em { font-style: italic; color: var(--ink-2); }
+.post-meta {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+}
+
+// ---- Reading typography -------------------------------------------------
+.post-content { padding-bottom: 2.6rem; }
+.post-content p { max-width: var(--measure); margin: 0 0 1.15rem; color: var(--ink); }
+
+.post-content h2, .post-content h3, .post-content h4 {
+  font-family: var(--serif);
+  font-weight: 400;
+  color: var(--ink);
+  max-width: var(--measure);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+.post-content h2 { font-size: 1.7rem; margin: 2.4rem 0 0.6rem; font-variation-settings: "opsz" 72, "SOFT" 60; }
+.post-content h3 { font-size: 1.3rem; margin: 1.8rem 0 0.5rem; font-style: italic; color: var(--ink-2); }
+
+.post-content a {
+  color: var(--ink);
+  text-decoration: none;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 1.08em;
+  transition: background-size 160ms ease, color 160ms ease;
+}
+.post-content a:hover { color: var(--accent-2); background-size: 100% 2px; text-decoration: none; }
+
+.post-content em { font-style: italic; }
+.post-content strong { font-weight: 600; color: var(--ink); }
+
+.post-content ul, .post-content ol {
+  max-width: var(--measure);
+  margin: 0 0 1.15rem;
+  padding-left: 1.4rem;
+  color: var(--ink);
+}
+.post-content li { margin-bottom: 0.4rem; }
+
+// ---- Code ---------------------------------------------------------------
+.post-content code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  background: var(--bg-deep);
+  color: var(--ink-2);
+  padding: 0.08em 0.4em;
+  border-radius: 3px;
+  border: 0;
+}
+.post-content pre {
+  max-width: var(--measure);
+  margin: 0 0 1.4rem;
+  padding: 1rem 1.2rem;
+  background: var(--bg-deep);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  overflow-x: auto;
+}
+.post-content pre code { background: none; padding: 0; font-size: 0.86rem; line-height: 1.55; color: var(--ink-2); border: 0; }
+figure.highlight { margin: 0 0 1.4rem; max-width: var(--measure); }
+
+// ---- Quote treatments (replacing the old grey left-bar) -----------------
+// Epigraph / standfirst: add class="epigraph" to a blockquote at the top of
+// a post (a touch of inline HTML for flair). Hairlines above & below, no bar.
+blockquote.epigraph,
+.post-content blockquote.epigraph {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 1.4rem 0 1.2rem;
+  margin: 0 0 2.2rem;
+  color: var(--ink-2);
+  max-width: var(--measure);
+}
+.post-content blockquote.epigraph p {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.24rem;
+  line-height: 1.45;
+  color: var(--ink-2);
+  margin: 0;
+  font-variation-settings: "opsz" 40, "SOFT" 80, "WONK" 1;
+}
+.post-content blockquote.epigraph::before { content: none; } // no hanging mark on the standfirst
+
+// Default blockquote: quiet inset with a hanging terracotta quote-mark — NOT
+// a heavy left bar. Just write `> quote` in markdown.
+.post-content blockquote {
+  max-width: var(--measure);
+  margin: 1.6rem 0;
+  padding: 0 0 0 2rem;
+  border: 0;
+  position: relative;
+  color: var(--ink-2);
+  font-style: normal;
+  letter-spacing: 0;
+}
+.post-content blockquote::before {
+  content: "\201C";
+  position: absolute;
+  left: 0;
+  top: -0.1em;
+  font-family: var(--serif);
+  font-size: 2.4rem;
+  line-height: 1;
+  color: var(--accent);
+  opacity: 0.6;
+  font-variation-settings: "opsz" 144;
+}
+.post-content blockquote p { font-size: 1.06rem; line-height: 1.5; margin: 0 0 0.5rem; }
+.post-content blockquote p:last-child { margin-bottom: 0; }
+.post-content blockquote cite {
+  display: block;
+  margin-top: 0.6rem;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-3);
+}
+.post-content blockquote cite::before { content: "— "; color: var(--accent); }
+
+// ---- Kramdown footnotes → Tufte sidenotes -------------------------------
+// You write standard markdown footnotes:  text[^1]   …   [^1]: the note.
+// Kramdown renders a <sup> ref + a .footnotes <ol> at the bottom (RSS / no-JS
+// keeps that). js/sidenotes.js promotes them into the right margin on wide
+// screens — no special markup in your posts.
+
+// inline reference marker
+.post-content sup[id^="fnref"] { font-size: 0.7em; line-height: 0; }
+.post-content sup[id^="fnref"] a {
+  font-family: var(--sans);
+  color: var(--accent);
+  text-decoration: none;
+  background: none;
+  padding: 0 0.1em;
+}
+.post-content sup[id^="fnref"] a:hover { color: var(--accent-2); }
+
+// bottom footnotes list (default / narrow / no-JS)
+.post-content .footnotes {
+  max-width: var(--measure);
+  margin: 2.4rem 0 0;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--ink-3);
+}
+.post-content .footnotes ol { margin: 0; padding-left: 1.4rem; max-width: none; }
+.post-content .footnotes li { margin-bottom: 0.5rem; }
+.post-content .footnotes li::marker { color: var(--accent); }
+.post-content .footnotes p { max-width: none; margin: 0; }
+.post-content .footnotes a { color: var(--ink-2); }
+.post-content .footnotes a.reversefootnote { color: var(--accent); text-decoration: none; margin-left: 0.3em; }
+
+// promoted margin sidenotes (built by js/sidenotes.js on wide screens),
+// plus any hand-placed <span class="marginnote"> for un-numbered asides/figures
+.post-content .sidenote,
+.post-content .marginnote {
+  float: right;
+  clear: right;
+  width: var(--margin-col);
+  margin-right: calc(-1 * (var(--margin-col) + var(--margin-gap)));
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--ink-3);
+}
+.post-content .sidenote .sn-num,
+.post-content .marginnote .sn-num { font-family: var(--sans); color: var(--accent); padding-right: 0.3em; }
+.post-content .sidenote a,
+.post-content .marginnote a { color: var(--ink-2); background-position: 0 1.05em; }
+.post-content .marginnote img { width: 100%; border: 1px solid var(--rule); border-radius: 3px; }
+.post-content .marginnote .cap { display: block; margin-top: 0.3rem; color: var(--ink-3); font-size: 0.72rem; }
+
+// Below the margin-promotion breakpoint, hand-placed notes fold inline.
+@media (max-width: 1000px) {
+  .post-content .marginnote {
+    float: none;
+    width: auto;
+    max-width: var(--measure);
+    margin: 0.6rem 0 1.1rem;
+    padding: 0.7rem 0 0.7rem 0.9rem;
+    border-left: 2px solid var(--rule);
+    display: block;
+  }
+}
+
+// ---- Post navigation (optional, if a layout adds it) --------------------
+.post-nav {
+  max-width: var(--measure);
+  margin: 1rem 0 0;
+  padding: 1.4rem 0 0;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+}
+.post-nav a { color: var(--ink-2); text-decoration: none; }
+.post-nav a:hover { color: var(--accent); }
+
+// ---- Site footer --------------------------------------------------------
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 1.6rem 0 2.6rem;
+  margin-top: 2.4rem;
+}
+.site-footer .footer-heading {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--ink);
+  margin: 0 0 0.6rem;
+}
+.site-footer,
+.site-footer .footer-col-wrapper {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+}
+.site-footer a { color: var(--ink-2); }
+.site-footer a:hover { color: var(--accent); text-decoration: none; }
+
+// ---- Misc base overrides (warm up minima leftovers) ---------------------
+a { color: var(--ink); }
+hr.separator { display: none; } // year grouping now handled by .year-block borders
