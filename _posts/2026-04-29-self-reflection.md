@@ -119,3 +119,5 @@ I'm curious to see whether this helps. If the Hermes skill-curator is Level 1 se
 2. Ji-An, L. et al. (2025). ["Language Models Are Capable of Metacognitive Monitoring and Control of Their Internal Activations."](https://arxiv.org/abs/2505.13763) arXiv:2505.13763. Direct evidence LLMs can monitor and regulate their own hidden states.
 3. Ghasemabadi, A. & Niu, D. (2025). ["Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits."](https://arxiv.org/abs/2512.20578) arXiv:2512.20578 (Gnosis). Lightweight mechanism that predicts generation correctness from hidden states and attention patterns.
 4. Binder, F.J. et al. (2024). ["Looking Inward: Language Models Can Learn About Themselves by Introspection."](https://arxiv.org/abs/2410.13787) arXiv:2410.13787. Models fine-tuned to report facts about themselves that cannot be derived from training data alone.
+
+**Update (20 August, 2026):** The ladder in this post has since been developed into a position paper, [Reflective Interfaces in Language-Model Systems: Sources, Interpretation, and Control](/content/papers/reflective-interfaces-in-language-model-systems.pdf).
