@@ -23,8 +23,9 @@ For an AI agent today, that level is the programming language. I don't think it 
 
 ## Two pulls on the abstraction layer
 
-**Pull up.** If AI is good enough at code, why ship rigid products at all? Why have a single Salesforce, a single Notion, when each user could commission their own version? Platforms don't disappear, but a lot of the surface area, i.e. the "features" layer, gets regrown locally for each user. 
-The software shops ship building blocks; the user, with an AI, assembles a personal instance. Brown Motie translated to software: commodity components at the bottom, bespoke artifact at the top.
+**Pull up.** Cheap code isn't necessarily cheap software. Even if tokens become almost free, establishing that the result works and is secure may remain expensive.
+
+Software shops could spread that cost across many users by shipping maintained building blocks. An agent assembles them into something personal, instead of rebuilding and checking the foundations for every consumer. Brown Motie translated to software: commodity components at the bottom, bespoke artifact at the top.
 
 **Push down.** But if AI is doing the writing, abstractions are no longer there for the human's benefit, instead they are there for the machine. The machine doesn't need them in the same way. It can hold a whole codebase in context. It can rewrite from scratch rather than reuse. It might, rightly (!), distrust code written by *other* AIs, refuse to build on it, prefer to work closer to the metal where behaviour is more predictable. This is what Karpathy [recently put in practice too](https://x.com/karpathy/status/2021633574089416993):
 
